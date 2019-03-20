@@ -1,0 +1,99 @@
+// about us
+.about {
+	display: flex;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	height: 100vh;
+	padding: 0 150px;
+	background: #00c4c4; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #00c4c4 0%, #00b7b7 32%, #00adad 68%, #009c9c 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #00c4c4 0%,#00b7b7 32%,#00adad 68%,#009c9c 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #00c4c4 0%,#00b7b7 32%,#00adad 68%,#009c9c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c4c4', endColorstr='#009c9c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.about-image {
+	width: 100%;
+	
+}
+
+.about-text {
+	margin-left: 85px;
+	color: #FFF;
+	
+
+		&__title {
+			font-family: $font;
+			font-size: 60px;
+			font-weight: 900;
+			margin-bottom: 30px;
+		}
+
+		&__desc {
+			font-weight: 300;
+			min-width: 585px;
+			max-width: 585px;
+			width: 100%;
+			
+		}
+}
+
+//Our services
+
+.services {
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	    -webkit-align-items: center;
+	            align-items: center;
+	min-height: 100vh;
+	min-width: 700px;
+	background-color: #70bfff;
+	padding: 0 150px;
+
+}
+
+.item__link {
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+	color: $black;
+	font-size: 20px;
+	font-weight: 700;
+	height: 100px;
+	width: 400px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding-right: 125px;
+	position: relative;
+	
+
+}
+
+.services__icon {
+	@include size(100px);
+	@include pos($r:25px);
+	border-left: 2px solid;
+	padding-left: 25px;
+	border-color: #9d9d9d;
+
+	
+}
+
+.services-title {
+	font-family: $font;
+	font-size: 60px;
+	font-weight: 900;
+	color: #FFF;
+	text-align: center;
+	line-height: 527px;
+	min-height: 527px;
+	height: 100%;
+	width: 50%;
+	background: url('../images/tomato.png') no-repeat top;
+    background-size: contain;
+}
