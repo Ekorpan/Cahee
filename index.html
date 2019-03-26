@@ -38,64 +38,104 @@
 		</symbol>
 	</svg>
 	<!--SVG-END-->
-	<div class="wrapper">
-		<div class="container-fluid">
-			<header class="header">
-				<nav class="nav">
-					<a class="logo" href="#">Cahee</a>
-					<ul class="menu">
-						<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-						<li class="menu__item"><a href="#about" class="menu__link">About</a></li>
-						<li class="menu__item"><a href="#services" class="menu__link">Services</a></li>
-						<li class="menu__item"><a href="#" class="menu__link">Gallery</a></li>
-						<li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
-						<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
-					</ul>
-				</nav>
-				<div class="header-text">
-					<h1 class="header-text__title">Fresh Life</h1>
-					<p class="header-text__desc">Sed do eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco.</p>
-					<a class="header-text__button">Get free now</a>
+
+	<header class="header">
+		<div class="wrapper">
+		<nav class="nav">
+			<a class="logo" href="#">Cahee</a>
+			<ul class="menu">
+				<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+				<li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+				<li class="menu__item"><a href="#services" class="menu__link">Services</a></li>
+				<li class="menu__item"><a href="#gallery" class="menu__link">Gallery</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="header-text">
+			<h1 class="header-text__title">Fresh Life</h1>
+			<p class="header-text__desc">Sed do eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco.</p>
+			<a class="header-text__button">Get free now</a>
+		</div>
+		<svg class="header__icon">
+			<a href="#about"><use xlink:href="#scroll"></use></a>
+		</svg>
+		</div>
+	</header>
+	<container class="main">
+		<div class="about" id="about">
+			<div class="about-image">
+				<img src="images/raspberry.png">
+			</div>
+			<div class="about-text">
+				<h1 class="about-text__title">About Us</h1>
+				<p class="about-text__desc">
+					Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.<br><br>
+					Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+				</p>
+			</div>
+		</div>
+		<div class="services" id="services">
+
+				<ul class="services-content">
+					<li class="services-content__item"><a href="#" class="item__link">Online Shopping <svg class="services__icon">
+						<use xlink:href="#shopping"></use>
+					</svg></a></li>
+					<li class="services-content__item"><a href="#" class="item__link">Quality Product <svg class="services__icon">
+						<use xlink:href="#quakity"></use>
+					</svg></a></li>
+					<li class="services-content__item"><a href="#" class="item__link">Domestic & International<br> Delivery <svg class="services__icon">
+						<use xlink:href="#delivery"></use>
+					</svg></a></li>
+					<li class="services-content__item"><a href="#" class="item__link"><p class="item-text">Well Organized</p><svg class="services__icon">
+						<use xlink:href="#organized"></use>
+					</svg></a></li>
+				</ul>
+				<div class="services-title">
+					<h1.title__name>Our Services</h1>
 				</div>
-				<svg class="header__icon">
-					<a href="#about"><use xlink:href="#scroll"></use></a>
-				</svg>
-			</header>
-			<container class="main">
-				<div class="about" id="about">
-					<div class="about-image">
-						<img src="images/raspberry.png">
+
+		</div>
+
+	</container>
+	<div class="gallery" id="gallery">
+		<div class="wrapper ">
+			<div class="gallery-text">
+				<h2 class="gallery-text__title">Gallery</h2>
+				<p class="gallery-text__desc">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			<div class="gallery-images">
+				<div class="row">
+					<div class="col-8 big-width">
+						<img src="images/gallery_1.jpg">
 					</div>
-					<div class="about-text">
-						<h1 class="about-text__title">About Us</h1>
-						<p class="about-text__desc">
-							Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.<br><br>
-							Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
-						</p>
-					</div>
-				</div>
-				<div class="services" id="services">
-					<ul class="services-content">
-						<li class="services-content__item"><a href="#" class="item__link">Online Shopping <svg class="services__icon">
-							<use xlink:href="#shopping"></use>
-						</svg></a></li>
-						<li class="services-content__item"><a href="#" class="item__link">Quality Product <svg class="services__icon">
-							<use xlink:href="#quakity"></use>
-						</svg></a></li>
-						<li class="services-content__item"><a href="#" class="item__link">Domestic & International<br> Delivery <svg class="services__icon">
-							<use xlink:href="#delivery"></use>
-						</svg></a></li>
-						<li class="services-content__item"><a href="#" class="item__link"><p class="item-text">Well Organized</p><svg class="services__icon">
-							<use xlink:href="#organized"></use>
-						</svg></a></li>
-					</ul>
-					<div class="services-title">
-						<h1.title__name>Our Services</h1>
+					<div class="col-4">
+						<div class="row small-size">
+							<img src="images/gallery_2.jpg">
+						</div>
+						<div class="row small-size">
+							<img src="images/gallery_3.jpg">
+						</div>
 					</div>
 				</div>
-			</container>
+				<div class="row">
+					<div class="col-6">
+						<img src="images/gallery_4.jpg">
+					</div>
+					<div class="col-6">
+						<img src="images/gallery_5.jpg">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-2 offset-5 button">
+					<a class="gallery-button" href="#">View more</a>
+				</div>
+			</div>
 		</div>
 	</div>
+
+
 	
 
 	<!-- LiveReload Script -->
