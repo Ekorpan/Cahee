@@ -1,0 +1,51 @@
+.subscribe {
+	background: url('../images/subscribe_bg.jpg') no-repeat center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+
+	padding-top: 145px;
+	
+	&__title {
+		font-size: 40px;
+		font-weight: 700;
+		margin-bottom: 35px;
+		text-transform: capitalize;
+	}
+
+	&__desc {
+		font-size: 17px;
+		font-weight: 300;
+		margin-bottom: 35px;
+		text-align: left;
+	}
+
+	&__email {
+		border: 1px solid $black;
+		width: 100%;
+		font-size: 15px;
+		line-height: 55px;
+		padding-left: 15px;
+		color: #929292;
+	}
+
+	&__button {
+		color: #fff;
+		font-size: 20px;
+		background: #96b92c;
+		width: 100%;
+		line-height: 57px;
+		cursor: pointer;
+		text-transform: uppercase;
+		box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+		
+		&:hover {
+			transform: skew(-10deg);
+		}
+		
+	}
+
+	&__placeholder {
+		padding-bottom: 165px;
+	}
+}
